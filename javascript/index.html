@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>36 into 6 groups</title>
+      <style>
+        body {
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 100vh;
+          background-color: rgb(138, 138, 137);
+          font-weight: bolder;
+        }
+        .cont {
+          background-color: rgba(255, 255, 255, 0.2);
+          border-radius: 25px;
+          padding: 35px;
+        }
+      </style>
+    </head>
+    <body>
+      <div class="cont">
+        <p>To input your list, you can: </p>
+        <p>1. Just click the button to activate prompts (Press " 0 " to end), OR
+        <p>2. Type in the text box and separate by a comma: ' , '. Then click the button, or press enter.</p>
+        <textarea placeholder='Your groupings are in the console :] 
+        
+        Note: You have to retart if you want to add to your list by simply refreshing the page :/ (i got lazy, sorry)' style="width: 550px; height: 100px;" type="text" id="textBox"></textarea>
+        <button id="btn">Click!</button>
+        <div class="groups"></div>
+      </div>
+      <script type= "module" src="grouping.js"></script>
+    </body>
+  </html>
